@@ -3,10 +3,10 @@
 [![Build Status][travis-image]][travis-url]
 [![Dependency status][david-dm-image]][david-dm-url]
 
-[travis-url]: https://travis-ci.org/danistefanovic/hooka
-[travis-image]: http://img.shields.io/travis/danistefanovic/hooka.svg
-[david-dm-url]:https://david-dm.org/danistefanovic/hooka
-[david-dm-image]:https://david-dm.org/danistefanovic/hooka.svg
+[travis-url]: https://travis-ci.org/hooka/hooka
+[travis-image]: http://img.shields.io/travis/hooka/hooka.svg
+[david-dm-url]:https://david-dm.org/hooka/hooka
+[david-dm-image]:https://david-dm.org/hooka/hooka.svg
 
 **Hooka** is a webhook server written in Node, which allows you to easily create HTTP endpoints to trigger the execution of configured commands.
 
@@ -93,7 +93,7 @@ $ npm install -g hooka
 Replace `/path/to/webhooks.json` with the actual path to your webhooks JSON file.
 
 ```sh
-$ docker run -v /path/to/webhooks.json:/src/webhooks.json -p 3000:3000 danistefanovic/hooka
+$ docker run -v /path/to/webhooks.json:/src/webhooks.json -p 3000:3000 hooka/hooka
 ```
 
 ## Security
@@ -112,4 +112,4 @@ Since anyone could in principle send requests to your webhook server, it’s imp
 
 > Do whatever you want with it, but don't blame me for anything that goes wrong.
 
-MIT © [Daniel Stefanovic](http://twitter.com/danistefanovic)
+MIT © Hooka contributors

@@ -2,7 +2,7 @@ import isRequestValid from '../validation/isRequestValid';
 
 /**
  * Rule validator Express middleware
- * @see https://github.com/danistefanovic/hooka/blob/master/docs/webhooks.md#validate
+ * @see https://github.com/hooka/hooka/blob/master/docs/webhooks.md#validate
  * @param {Array} validationRules Validation rules
  * @return {void}
  */

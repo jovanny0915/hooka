@@ -1,5 +1,5 @@
 FROM node:4.4
-MAINTAINER Daniel Stefanovic
+LABEL org.opencontainers.image.authors="Hooka contributors"
 EXPOSE 3000
 WORKDIR /src
 

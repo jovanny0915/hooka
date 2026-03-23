@@ -3,7 +3,7 @@ import pickVariablesFromJson from '../utils/pickVariablesFromJson';
 
 /**
  * "parseJson" Express middelware
- * @see https://github.com/danistefanovic/hooka/blob/master/docs/webhooks.md#parsejson
+ * @see https://github.com/hooka/hooka/blob/master/docs/webhooks.md#parsejson
  * @param {Array} parseJson Config for "parseJson"
  * @return {void}
  */
